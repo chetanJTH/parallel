@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ParallelDemo" verbose="1" parallel="tests" thread-count="2">
+<test name="Samsung J7">
+  <parameter name="deviceName" value="SamsungJ7"></parameter>
+  <parameter name="udid" value="330033acecf394bd"></parameter>
+  <parameter name="platformVersion" value="8.1"></parameter>
+  <parameter name="url" value="127.0.0.1:4727/wd/hub"></parameter>
+  <classes>
+    <class name="Test.category"/>
+  </classes>
+</test> <!-- Default test -->
+<test name="Samsung A10">
+  <parameter name="deviceName" value="SamsungA10"></parameter>
+  <parameter name="udid" value="RZ8M422FZJA"></parameter>
+  <parameter name="platformVersion" value="9"></parameter>
+  <parameter name="url" value="127.0.0.1:4737/wd/hub"></parameter>
+  <classes>
+    <class name="Test.category"/>
+  </classes>
+</test>
+
+</suite> <!-- Default suite -->
