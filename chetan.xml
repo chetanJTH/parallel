@@ -9,15 +9,14 @@
   <classes>
     <class name="Test.category"/>
   </classes>
-</test> <!-- Default test -->
-<test name="Samsung A10">
-  <parameter name="deviceName" value="SamsungA10"></parameter>
-  <parameter name="udid" value="RZ8M422FZJA"></parameter>
+</test>
+<test name="Nokia 5">
+  <parameter name="deviceName" value="Nokia"></parameter>
+  <parameter name="udid" value="PDAID18102601051"></parameter>
   <parameter name="platformVersion" value="9"></parameter>
   <parameter name="url" value="127.0.0.1:4737/wd/hub"></parameter>
   <classes>
     <class name="Test.category"/>
   </classes>
 </test>
-
-</suite> <!-- Default suite -->
+</suite>

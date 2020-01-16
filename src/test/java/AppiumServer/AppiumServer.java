@@ -24,10 +24,10 @@ public class AppiumServer {
 
     public AppiumDriverLocalService appiumService() {
 
-        //	String Appium_Node_Path="C:/Users/admin/AppData/Roaming/npm/appium.cmd";
+        	//String Appium_Node_Path="C:/Users/admin/AppData/Roaming/npm/appium.cmd";
             String appiumJSPath = "C:Users/admin/AppData/Roaming/npm/node_modules/appium/build/lib/main.js";
             builder = new AppiumServiceBuilder()
-       //    		.usingDriverExecutable(new File(Appium_Node_Path))
+           		//.usingDriverExecutable(new File(Appium_Node_Path))
                     .withAppiumJS(new File(appiumJSPath))
                     .withIPAddress("0.0.0.0")
                     .usingAnyFreePort()

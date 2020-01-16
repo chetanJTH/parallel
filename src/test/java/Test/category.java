@@ -12,7 +12,7 @@ public class category extends BaseTest {
         println("Test.category found");
 
         Thread.sleep(2000);
-        driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Footwear\"));");
+        driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Grocery Stores\"));");
         println(" sub Test.category found");
 
 

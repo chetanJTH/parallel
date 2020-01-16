@@ -9,6 +9,7 @@ public class Constants {
     public static final boolean FULL_RESET = false;
     public static final Devices devices = Devices.moto;
 
+
     public static final String getAppPath(){
         if (IS_PRODUCTION) {
             return "src/app/driver-release.apk";
